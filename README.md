@@ -15,3 +15,10 @@ You’ll need a Nebius AI Studio account and API key to follow along. Sign up fo
 - [Nebius AI Studio Docs](https://docs.nebius.com/studio)
 - [Nebius AI Blog](https://nebius.com/blog)
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+© Nebius BV, 2025
+
