@@ -11,7 +11,7 @@ This guide shows how to run models using various python APIs.
 - NEBIUS_API_KEY
 - Be sure to finish [the setup](../setup-dev-env.md)
 
-## 1 - OpenAI Compatible API
+## OpenAI Compatible API
 
 This is the default API. OpenAI API comptable.
 
@@ -23,7 +23,7 @@ Example code: [api_native.ipynb](api_native.ipynb)
 
 Nebius AI Studio also supports [third party APIs](https://docs.nebius.com/studio/inference/integrations).  Here are some examples
 
-## 2 - AISuite
+## AISuite
 
 [aisuite](https://github.com/andrewyng/aisuite) is a simple, unified interface to multiple Generative AI providers.
 

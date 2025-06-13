@@ -39,6 +39,8 @@ Access AI Studio using various APIs such as OpenAI compatible API / LiteLLM / Ll
 
 ## Embeddings
 
+## Vision Models
+
 ## RAG
 
 ## Observability
@@ -46,6 +48,12 @@ Access AI Studio using various APIs such as OpenAI compatible API / LiteLLM / Ll
 ## Agents
 
 ## MCP
+
+## Finetuning
+
+## Distillation
+
+## LORA
 
 ---
 © Nebius BV, 2025
