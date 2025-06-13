@@ -1,0 +1,14 @@
+openai
+
+aisuite
+docstring-parser
+
+litellm
+
+llama-index-llms-nebius
+
+## python utils
+python-dotenv
+
+## jupyter notebook
+ipykernel
