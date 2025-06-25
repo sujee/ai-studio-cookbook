@@ -47,6 +47,10 @@ Access AI Studio using various APIs such as OpenAI compatible API / LiteLLM / Ll
 
 ## Agents
 
+Examples featuring CrewAI and more
+
+[agents](agents/)
+
 ## MCP
 
 ## Finetuning
