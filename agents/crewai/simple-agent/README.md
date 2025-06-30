@@ -25,7 +25,7 @@ A simple yet powerful AI research crew built with CrewAI that leverages multiple
 ## Tech Stack
 
 - CrewAI agent framework
-- Nebius AI for LLM inference (Meta-Llama-3.1-70B-Instruct)
+- Nebius AI for LLM inference
 
 ## Task Structure
 
@@ -75,7 +75,11 @@ uv pip install -r requirements.txt
 NEBIUS_API_KEY=your_api_key_here
 ```
 
-## Running
+## Video
+
+🎥 [Video tutorial](https://www.youtube.com/watch?v=jth10qwoMq0)
+
+## Code
 
 [agent.ipynb](agent.ipynb) notebook can be run locally or Google Colab.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai/simple-agent/agent.ipynb)
