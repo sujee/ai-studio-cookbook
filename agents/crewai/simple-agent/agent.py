@@ -5,10 +5,10 @@ from crewai import Crew, Process
 
 load_dotenv()
 
+## https://docs.crewai.com/en/learn/llm-connections#using-the-llm-class
 llm=LLM(
-        model="openai/meta-llama/Meta-Llama-3.1-70B-Instruct",
-        # model="openai/deepseek-ai/DeepSeek-R1-0528",
-        base_url="https://api.studio.nebius.com/v1/",
+        model="nebius/Qwen/Qwen3-30B-A3B",
+        # model="nebius/deepseek-ai/DeepSeek-R1-0528",
         api_key=os.getenv("NEBIUS_API_KEY")
 )
 
