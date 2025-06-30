@@ -23,7 +23,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **1 - Prerequisites**
 
-- You’ll need a Nebius AI Studio account and API key to follow along. Sign up for free [here](https://studio.nebius.com/).
+- You’ll need a Nebius AI Studio account and API key. Sign up for free [here](https://studio.nebius.com/).
 - Python runtime (local, Google Colab etc.)
 - Git
 
@@ -33,9 +33,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## APIs
 
-Access AI Studio using various APIs such as OpenAI compatible API / LiteLLM / LlamaIndex / aisuite
+Access AI Studio using various APIs.
 
 [apis](api/)
+- [native API](api/api_native.ipynb) - openAI comptabile
+- [LiteLLM API](api/api_litellm.ipynb)
+- [aisuite API](api/api_aisuite.ipynb)
+- [llamaindex API](api/api_llamaindex.ipynb)
 
 ## Embeddings
 
