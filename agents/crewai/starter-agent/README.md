@@ -54,7 +54,7 @@ The code can be run locally or on Google colab.  Colab is recommended, as it doe
 
 ```bash
 git clone   https://github.com/nebius/ai-studio-cookbook/
-cd  agents/crewai/simple-agent
+cd  agents/crewai/starter-agent
 ```
 2. Install dependencies:
 
@@ -82,7 +82,7 @@ NEBIUS_API_KEY=your_api_key_here
 ## Code
 
 [agent.ipynb](agent.ipynb) notebook can be run locally or Google Colab.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai/simple-agent/agent.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai/starter-agent/agent.ipynb)
 
 [agent.py](agent.py) python script can be run locally.
 

@@ -54,7 +54,7 @@ Access AI Studio using various APIs.
 [agents](agents/)
 
 - [CrewAI](agents/crewai/)
-  - [Research agent](agents/crewai/simple-agent)
+  - [Research agent](agents/crewai/starter-agent)
 
 ## MCP
 

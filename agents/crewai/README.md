@@ -8,6 +8,7 @@ This folder has examples of agents using [CrewAI](https://crewai.com/) agent pla
 ## References
 
 - [CrewAI documentation](https://docs.crewai.com/)
+- [CrewAI + Nebius](https://docs.crewai.com/en/concepts/llms#nebius-ai-studio)
 - [CrewAI examples](https://github.com/crewAIInc/crewAI)
 - [Nebius AI Studio documentation](https://docs.nebius.com/studio/inference/quickstart)
 
@@ -16,5 +17,5 @@ This folder has examples of agents using [CrewAI](https://crewai.com/) agent pla
 
 | Agent        | Description        | Code                          |
 |--------------|--------------------|-------------------------------|
-| Simple agent | Research agent | [simple-agent](simple-agent/) |
+| Simple agent | Research agent | [starter-agent](starter-agent/) |
 |              |                    |                               |
