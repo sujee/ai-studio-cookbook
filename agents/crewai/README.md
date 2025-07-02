@@ -17,5 +17,5 @@ This folder has examples of agents using [CrewAI](https://crewai.com/) agent pla
 
 | Agent        | Description        | Code                          |
 |--------------|--------------------|-------------------------------|
-| Simple agent | Research agent | [starter-agent](starter-agent/) |
+| Starter agent | Research agent | [starter-agent](starter-agent/) |
 |              |                    |                               |
