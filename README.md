@@ -31,30 +31,40 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **3 - Follow project-specific instructions**
 
-## APIs
+## [APIs](api/)
 
 Access AI Studio using various APIs.
 
-[apis](api/)
-- [native API](api/api_native.ipynb) - openAI comptabile
-- [LiteLLM API](api/api_litellm.ipynb)
-- [aisuite API](api/api_aisuite.ipynb)
-- [llamaindex API](api/api_llamaindex.ipynb)
+| Code                                       | Description           |
+|--------------------------------------------|-----------------------|
+| [api_native.ipynb](api/api_native.ipynb)         | OpenAI compatible API |
+| [api_litellm.ipynb](api/api_litellm.ipynb)       | Using LiteLLM API     |
+| [api_aisuite.ipynb](api/api_aisuite.ipynb)       | Using aisuite API     |
+| [api_llamaindex.ipynb](api/api_llamaindex.ipynb) | Using llama-index API |
+
+
 
 ## Embeddings
 
-## Vision Models
 
-## RAG
+## [RAG](rag/)
+
+| Category    | Name                                  | Description                   |
+|-------------|---------------------------------------|-------------------------------|
+| Llama-index | [Query PDF](rag/rag-pdf-llama-index/) | Query PDF documents using LLamaindex + Nebius AI API |
+
+## [Agents](agents/)
+
+
+| Framework | Name                                          | Description           |
+|-----------|-----------------------------------------------|-----------------------|
+| **CrewAI**    | [Research agent](agents/crewai/starter-agent) | Single research agent |
+|           | [All CrewAI examples](agents/crewai/)    
+
+## Vision Modes
+
 
 ## Observability
-
-## Agents
-
-[agents](agents/)
-
-- [CrewAI](agents/crewai/)
-  - [Research agent](agents/crewai/starter-agent)
 
 ## MCP
 
