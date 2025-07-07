@@ -3,3 +3,5 @@
 venv/
 .venv/
 .directory
+
+.virtual_documents/
