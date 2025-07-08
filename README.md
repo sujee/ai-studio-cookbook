@@ -49,9 +49,10 @@ Access AI Studio using various APIs.
 
 ## [RAG](rag/)
 
-| Category    | Name                                  | Description                   |
-|-------------|---------------------------------------|-------------------------------|
-| Llama-index | [Query PDF](rag/rag-pdf-llama-index/) | Query PDF documents using LLamaindex + Nebius AI API |
+| Example                             | Description                                         | Tech Stack                         |
+|-------------------------------------|-----------------------------------------------------|------------------------------------|
+| [PDF RAG](rag/rag-pdf-llama-index/) | Simple PDF RAG application                          | LLamaindex + Nebius AI     |
+| [Chat with Documents](rag/chat-with-pdf)  | UI Web app to chat interactively with PDF documents | LLamaindex + Nebius AI + Streamlit |
 
 ## [Agents](agents/)
 
