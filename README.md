@@ -4,8 +4,9 @@ The Nebius AI Studio Cookbook is a collection of guides and examples for working
 
 ## Contributing
 
-Want to share your own recipe? Open a pull request!
+We welcome your contributions!
 
+### [See Community Contributions](community/README.md)
 
 
 ## Resources
