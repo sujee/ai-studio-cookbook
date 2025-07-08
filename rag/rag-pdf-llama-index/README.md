@@ -30,6 +30,8 @@ This example shows querying a PDF using  [llama index](https://docs.llamaindex.a
 
 ## Run the code
 
+[rag_pdf_query.ipynb](rag_pdf_query.ipynb)
+
 ### Option-1 (Easy!):  On Google Colab
 
 No setup required.
