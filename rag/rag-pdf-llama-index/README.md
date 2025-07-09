@@ -51,7 +51,7 @@ uv  sync
 Run notebook
 
 ```bash
-uv run jupyter lab  rag_pdf_query.ipynb
+uv run --with jupyter jupyter lab rag_pdf_query.ipynb
 ```
 
 #### 2B: Using pip
@@ -64,4 +64,18 @@ pip install -r requirements.txt
 jupyter lab  rag_pdf_query.ipynb
 ```
 
+## Dev Notes
+
+How the uv project was created.
+
+```bash
+uv init .
+uv add -r requirements.txt
+uv add --dev ipykernel   # for jupyter kernel
+uv sync
+
+# create a kernel to use uv env within vscode
+source  .venv/bin/activate
+uv run python -m ipykernel install --user --name=$(basename $(pwd)) --display-name "($(basename $(pwd)))"
+```
 
