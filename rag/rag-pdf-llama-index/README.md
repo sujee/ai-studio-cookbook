@@ -76,6 +76,6 @@ uv sync
 
 # create a kernel to use uv env within vscode
 source  .venv/bin/activate
-uv run python -m ipykernel install --user --name=$(basename $(pwd)) --display-name "($(basename $(pwd)))"
+uv run python -m ipykernel install --user --name=$(basename $(pwd)) --display-name "$(basename $(pwd))"
 ```
 

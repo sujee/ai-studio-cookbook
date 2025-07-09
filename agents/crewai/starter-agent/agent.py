@@ -38,3 +38,13 @@ tech_crew = Crew(
 
 # Begin the task execution
 result = tech_crew.kickoff()
+
+## see raw response
+## Look at `token_usage` output
+# print("=== CREW OUTPUT ===")
+# print(result.raw)
+print("\n=== TOKEN USAGE ===")
+print(f"Total tokens: {result.token_usage.total_tokens}")
+print(f"Prompt tokens: {result.token_usage.prompt_tokens}")
+print(f"Completion tokens: {result.token_usage.completion_tokens}")
+print(f"Successful requests: {result.token_usage.successful_requests}")

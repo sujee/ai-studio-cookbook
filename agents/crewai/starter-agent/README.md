@@ -58,18 +58,19 @@ cd  agents/crewai/starter-agent
 ```
 2. Install dependencies:
 
-Using conda/pip
+if using `uv` package manager
+```bash
+uv sync
+```
+
+If using conda/pip
 
 ```bash
 pip  install  -r requirements.txt
 ```
 
-if using `uv` package manager
-```bash
-uv pip install -r requirements.txt
-```
 
-3. Create a `.env` file in the project root and add your Nebius API key:
+1. Create a `.env` file in the project root and add your Nebius API key:
 
 ```
 NEBIUS_API_KEY=your_api_key_here
@@ -82,12 +83,34 @@ NEBIUS_API_KEY=your_api_key_here
 ## Code
 
 [agent.ipynb](agent.ipynb) notebook can be run locally or Google Colab.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai/starter-agent/agent.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai/starter-agent/agent.ipynb)
+- run locally:  
+    `uv run --with jupyter jupyter lab agent.ipynb`
 
 [agent.py](agent.py) python script can be run locally.
 
 ```bash
+# using uv
+uv run python agent.py
+
+# or 
 python agent.py
+```
+
+## Dev Notes
+
+How the uv project was created.
+
+```bash
+uv init .
+uv add -r requirements.txt
+uv add --dev ipykernel   # for jupyter kernel
+uv sync
+
+# create a kernel to use uv env within vscode
+source  .venv/bin/activate
+uv run python -m ipykernel install --user --name=$(basename $(pwd)) --display-name "$(basename $(pwd))"
+jupyter kernelspec list  # verify kernel is successfully created
 ```
 
 
