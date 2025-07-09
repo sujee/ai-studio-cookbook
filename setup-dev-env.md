@@ -42,33 +42,65 @@ Add NEBIUS API KEY as follows (one time setup).
 
 Follow the steps below for setting up a local python environment.
 
-**Option 1 (Recommended): Using Anaconda / mini-forge**
+**Option 1 (Recommended): using UV**
+
+If the project is a 'native' uv project  - it has  files like `uv.lock` and `pyproject.toml`
 
 ```bash
-conda create -n studio-1 python=3.11
-conda activate studio-1
+uv sync
+
+# run notebooks like
+uv run jupyter lab notebook.ipynb
+
+# run python scripts
+uv run python code.py
 ```
 
-**Option 2: Using Python venv**
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-**Option 3: using UV**
+If the project only has `requirements.txt` file (not a native UV project)
 
 ```bash
 uv venv --python 3.11
 source .venv/bin/activate
+
+uv pip install -r requirements.txt
+
+# run notebooks like
+uv run jupyter lab notebook.ipynb
+
+# run python scripts
+uv run python code.py
 ```
 
-Once the environment is setup, install project specific dependencies as follows
+
+**Option 2: Using Anaconda / mini-forge**
 
 ```bash
+conda create -n studio-1 python=3.11
+conda activate studio-1
 pip install -r requirements.txt
-# uv pip install -r requirements.txt
+
+# run notebooks like
+jupyter lab notebook.ipynb
+
+# run python scripts
+python code.py
 ```
+
+**Option 3: Using Python venv**
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+# run notebooks like
+jupyter lab notebook.ipynb
+
+# run python scripts
+python code.py
+```
+
+
 
 ## 4B - Setup `.env` configuration file (for Local Setup)
 
