@@ -146,7 +146,7 @@ Go to URL : [localhost:8000](http://localhost:8000/)
 **Preparing the dev env using UV**
 
 ```bash
-cd google-adk-tool-calling
+cd agents/google-adk-tool-calling
 uv init .
 mv main.py   agent.py
 uv  add -r requirements.txt

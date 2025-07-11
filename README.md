@@ -63,9 +63,9 @@ Access AI Studio using various APIs.
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| [Research agent](agents/crewai/research-agent)  | CrewAI research agent   | CrewAI | 
-| [Tool calling agent](agents/google-adk/tool-calling) | Function calling agent | Google ADK | 
-| [Hacker News Agent](agents/agno/hacker-news-agent) | Analyze hacker news | Agno | 
+| [Research agent](agents/crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
+| [Tool calling agent](agents/google-adk-tool-calling/) | Function calling agent | Google ADK | 
+| [Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
 
 #### [View all agent examples](agents/README.md)
 

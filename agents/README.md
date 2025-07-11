@@ -15,9 +15,9 @@ Jump to:
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| [Research agent](crewai/research-agent)  | CrewAI research agent   | CrewAI | 
-| [Tool calling agent](google-adk/tool-calling) | Function calling agent | Google ADK | 
-| [Hacker News Agent](agno/hacker-news-agent) | Analyze hacker news | AgnoAI | 
+| [Research agent](crewai-research-agent)  | CrewAI research agent   | CrewAI | 
+| [Tool calling agent](google-adk-tool-calling) | Function calling agent | Google ADK | 
+| [Hacker News Agent](agno-hacker-news-agent) | Analyze hacker news | AgnoAI | 
 
 
 ## Agents by Framework
@@ -26,17 +26,17 @@ Jump to:
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| [Research agent](crewai/research-agent)  | CrewAI research agent   | CrewAI | 
+| [Research agent](crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
 
 ### [Google ADK (Agent Development Kit)](https://google.github.io/adk-docs/)
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| [Tool calling agent](google-adk/tool-calling) | Function calling agent | Google ADK | 
+| [Tool calling agent](google-adk-tool-calling/) | Function calling agent | Google ADK | 
 
 
 ### [Agno](https://www.agno.com/)
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| [Hacker News Agent](agno/hacker-news-agent) | Analyze hacker news | AgnoAI | 
+| [Hacker News Agent](agno-hacker-news-agent/) | Analyze hacker news | AgnoAI | 

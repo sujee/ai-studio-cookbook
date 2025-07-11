@@ -4,9 +4,12 @@ A simple yet powerful AI research crew built with CrewAI that leverages multiple
 
 ## References and Acknoledgements
 
-- This example is adopted with thanks from [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) repo. [source](https://github.com/Arindam200/awesome-ai-apps/tree/main/starter_ai_agents/crewai_starter)
-- [CrewAI documentation](https://docs.crewai.com/en/introduction)
+- [CrewAI documentation](https://docs.crewai.com/)
+- [CrewAI + Nebius](https://docs.crewai.com/en/concepts/llms#nebius-ai-studio)
+- [CrewAI examples](https://github.com/crewAIInc/crewAI)
 - [Nebius AI Studio documentation](https://docs.nebius.com/studio/inference/quickstart)
+- This example is contributed from [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
+
 
 
 ## Features
@@ -54,7 +57,7 @@ The code can be run locally or on Google colab.  Colab is recommended, as it doe
 
 ```bash
 git clone   https://github.com/nebius/ai-studio-cookbook/
-cd  agents/crewai/research-agent
+cd  agents/crewai-research-agent
 ```
 2. Install dependencies:
 
@@ -83,7 +86,7 @@ NEBIUS_API_KEY=your_api_key_here
 ## Code
 
 [agent.ipynb](agent.ipynb) notebook can be run locally or Google Colab.
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai/research-agent/agent.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/agents/crewai-research-agent/agent.ipynb)
 - run locally:  
     `uv run --with jupyter jupyter lab agent.ipynb`
 
