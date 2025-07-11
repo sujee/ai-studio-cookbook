@@ -3,5 +3,7 @@
 venv/
 .venv/
 .directory
+__pycache__/
+*.pyc
 
 .virtual_documents/

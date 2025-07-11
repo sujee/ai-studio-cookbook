@@ -61,7 +61,10 @@ Access AI Studio using various APIs.
 | Framework | Name                                          | Description           |
 |-----------|-----------------------------------------------|-----------------------|
 | **CrewAI**    | [Research agent](agents/crewai/starter-agent) | Single research agent |
-|           | [All CrewAI examples](agents/crewai/)    
+|      [All CrewAI examples](agents/crewai/)      |    | |
+|           |     | |
+| **Google Agent Dev Kit**    | [Tool calling agent](agents/google-adk/tool-calling) | Simple agent demonstrating function calling |
+|  [All Google ADK examples](agents/google-adk/)         |     | |
 
 ## Vision Modes
 
