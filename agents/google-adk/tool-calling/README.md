@@ -18,12 +18,13 @@ This example shows a sample 'tool calling' agent, built using Google's Agent Dev
 
 ## Setup
 
-Switch to project dir:
+**1 - get the code**
 
 ```bash
+git   clone    https://github.com/nebius/ai-studio-cookbook/
 cd  agents/google-adk/tool-calling
 ```
-**1 - Install dependencies**
+**2 - Install dependencies**
 
 using `uv`
 
@@ -45,7 +46,7 @@ pip install -r requirements.txt
 adk --version
 ```
 
-**2 - Create .env file**
+**3 - Create .env file**
 
 Create a `.env` file in the project root and add your Nebius API key:
 
@@ -84,7 +85,6 @@ adk run .
 **Using python pip**
 
 ```bash
-pip install -r requirementst.txt
 adk run .
 ```
 
