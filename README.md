@@ -57,14 +57,20 @@ Access AI Studio using various APIs.
 
 ## [Agents](agents/)
 
+### 🧩 Starter Agents
 
-| Framework | Name                                          | Description           |
+**Quick-start agents for learning and extending:**
+
+| Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| **CrewAI**    | [Research agent](agents/crewai/starter-agent) | Single research agent |
-|      [All CrewAI examples](agents/crewai/)      |    | |
-|           |     | |
-| **Google Agent Dev Kit**    | [Tool calling agent](agents/google-adk/tool-calling) | Simple agent demonstrating function calling |
-|  [All Google ADK examples](agents/google-adk/)         |     | |
+| [Research agent](agents/crewai/research-agent)  | CrewAI research agent   | CrewAI | 
+| [Tool calling agent](agents/google-adk/tool-calling) | Function calling agent | Google ADK | 
+| [Hacker News Agent](agents/agno/hacker-news-agent) | Analyze hacker news | Agno | 
+
+#### [View all agent examples](agents/README.md)
+
+#### [View agent examples by framework](agents/README.md#agents-by-framework)
+
 
 ## Vision Modes
 

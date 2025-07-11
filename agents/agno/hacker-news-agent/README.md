@@ -35,7 +35,7 @@ A powerful AI agent built with Agno that analyzes and provides insights about Ha
 
 ```bash
 git   clone    https://github.com/nebius/ai-studio-cookbook/
-cd    agents/agno/starter
+cd    agents/agno/hacker-news-agent
 ```
 
 **2. Install dependencies:**
