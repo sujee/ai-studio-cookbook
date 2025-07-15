@@ -67,6 +67,7 @@ Access AI Studio using various APIs.
 | [Tool calling agent](agents/google-adk-tool-calling/) | Function calling agent | Google ADK | 
 | [Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
 | [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
+| [Pydantic weather agent](agents/pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
 
 
 #### [View all agent examples](agents/README.md)
