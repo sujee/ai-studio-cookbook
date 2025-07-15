@@ -66,6 +66,8 @@ Access AI Studio using various APIs.
 | [Research agent](agents/crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
 | [Tool calling agent](agents/google-adk-tool-calling/) | Function calling agent | Google ADK | 
 | [Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
+| [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
+
 
 #### [View all agent examples](agents/README.md)
 

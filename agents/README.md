@@ -15,9 +15,10 @@ Jump to:
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
-| [Research agent](crewai-research-agent)  | CrewAI research agent   | CrewAI | 
-| [Tool calling agent](google-adk-tool-calling) | Function calling agent | Google ADK | 
-| [Hacker News Agent](agno-hacker-news-agent) | Analyze hacker news | AgnoAI | 
+| [Research agent](crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
+| [Tool calling agent](google-adk-tool-calling/) | Function calling agent | Google ADK | 
+| [Hacker News Agent](agno-hacker-news-agent/) | Analyze hacker news | AgnoAI | 
+| [Llama-index task timer](llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
 
 
 ## Agents by Framework
@@ -40,3 +41,9 @@ Jump to:
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
 | [Hacker News Agent](agno-hacker-news-agent/) | Analyze hacker news | AgnoAI | 
+
+## [Llama-index](https://www.llamaindex.ai/)
+
+| Agent | Descripton                                          | Tech Stack           |
+|-----------|-----------------------------------------------|-----------------------|
+| [Llama-index task timer](llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
