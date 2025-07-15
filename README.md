@@ -57,22 +57,28 @@ Access AI Studio using various APIs.
 
 ## [Agents](agents/)
 
-### 🧩 Starter Agents
-
-**Quick-start agents for learning and extending:**
-
-| Agent | Descripton                                          | Tech Stack           |
-|-----------|-----------------------------------------------|-----------------------|
-| [Research agent](agents/crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
-| [Tool calling agent](agents/google-adk-tool-calling/) | Function calling agent | Google ADK | 
-| [Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
-| [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
-| [Pydantic weather agent](agents/pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
-
-
 #### [View all agent examples](agents/README.md)
 
 #### [View agent examples by framework](agents/README.md#agents-by-framework)
+
+### 🧩 Starter Agents
+
+
+| Agent | Descripton                                          | Tech Stack           |
+|-----------|-----------------------------------------------|-----------------------|
+| [CrewAI Research agent](agents/crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
+| [Google ADK Tool calling agent](agents/google-adk-tool-calling/) | Function calling agent | Google ADK | 
+| [Agno Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
+| [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
+| [Pydantic weather agent](agents/pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
+
+## 🏃🏻 Multi Agents
+
+| Agent | Descripton                                          | Tech Stack           |
+|-----------|-----------------------------------------------|-----------------------|
+| [Agno multi agent](agno-agents-examples/) | Multiple agents working together to do finance research | Agno + Duckduckgo + Yahoo Finance| 
+
+
 
 
 ## Vision Modes

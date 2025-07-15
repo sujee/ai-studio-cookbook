@@ -1,0 +1,11 @@
+agno
+duckduckgo-search
+ddgs
+openai
+python-dotenv
+pypdf
+couchbase
+yfinance
+
+ipykernel
+ipywidgets
