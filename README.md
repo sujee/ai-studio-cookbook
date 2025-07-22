@@ -55,6 +55,13 @@ Access AI Studio using various APIs.
 | [PDF RAG](rag/rag-pdf-llama-index/) | Simple PDF RAG application                          | LLamaindex + Nebius AI     |
 | [Chat with Documents](rag/chat-with-pdf)  | UI Web app to chat interactively with PDF documents | LLamaindex + Nebius AI + Streamlit |
 
+## Function / Tool Calling
+
+| Example                             | Description                                         | Tech Stack                         |
+|-------------------------------------|-----------------------------------------------------|------------------------------------|
+| [simple function calling example 1](tool-calling/function_calling_1.ipynb) | Demonstrates how to calls functions                          | Nebius AI     |
+
+
 ## [Agents](agents/)
 
 #### [View all agent examples](agents/README.md)
@@ -72,7 +79,7 @@ Access AI Studio using various APIs.
 | [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
 | [Pydantic weather agent](agents/pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
 
-## 🏃🏻 Multi Agents
+## 🏃🏻🏃🏽‍♀️ Multi Agents
 
 | Agent | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
