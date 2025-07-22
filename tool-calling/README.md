@@ -56,3 +56,11 @@ And select the kernel defined above and run notebooks.
 
 Restart vscode so it will refresh available kernels.  Then select it and run it.
 
+
+## Examples
+
+
+| Example                             | Description                                         | Tech Stack                         |
+|-------------------------------------|-----------------------------------------------------|------------------------------------|
+| [simple function calling example 1](function_calling_1.ipynb) | Demonstrates how to call functions                          | Nebius AI     |
+

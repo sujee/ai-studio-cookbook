@@ -59,7 +59,7 @@ Access AI Studio using various APIs.
 
 | Example                             | Description                                         | Tech Stack                         |
 |-------------------------------------|-----------------------------------------------------|------------------------------------|
-| [simple function calling example 1](tool-calling/function_calling_1.ipynb) | Demonstrates how to calls functions                          | Nebius AI     |
+| [simple function calling example 1](tool-calling/function_calling_1.ipynb) | Demonstrates how to call functions                          | Nebius AI     |
 
 
 ## [Agents](agents/)
