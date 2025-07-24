@@ -99,6 +99,10 @@ Access AI Studio using various APIs.
 
 ## Distillation
 
+| Name | Descripton                                          | Tech Stack           |
+|-----------|-----------------------------------------------|-----------------------|
+| [Distillation 1](distillation/distillation-1/)  | Example of a distilled model to do grammer check   | Nebius AI | 
+
 ## LORA
 
 ---
