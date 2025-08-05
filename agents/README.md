@@ -31,6 +31,7 @@ Jump to:
 | [Agno websearch agent](agno-agents-examples/) | Use web search to do research  | Agno + Duckduckgo | 
 | [Llama-index task timer](llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
 | [Pydantic weather agent](pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
+| [n8n E-commerce Data Analyst](n8n-ecommerce-analytics-agent/) | E-commerce data analysis and reporting | n8n + Google Workspace |
 | [AWS Strands Weather Agent](aws-strands-weather-agent/) | Weather assistant using Strands SDK and Nebius LLMs | Strands + Nebius + NWS | 
 
 
