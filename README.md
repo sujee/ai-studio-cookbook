@@ -32,6 +32,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **3 - Follow project-specific instructions**
 
+## [Fun and Cool Stuff](fun/)
+
+Have some fun with LLMs on Studio.  "Pelican Riding a bicycle" benchmark, creating cool images using LORA.
+
 ## [APIs](api/)
 
 Access AI Studio using various APIs.
@@ -78,6 +82,7 @@ Access AI Studio using various APIs.
 | [Agno Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
 | [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
 | [Pydantic weather agent](agents/pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
+| [AWS Strands Weather Agent](agents/aws-strands-weather-agent/) | Weather assistant | Strands SDK |
 
 ## 🏃🏻🏃🏽‍♀️ Multi Agents
 
