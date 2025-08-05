@@ -32,6 +32,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **3 - Follow project-specific instructions**
 
+## [Fun and Cool Stuff](fun/)
+
+Have some fun with LLMs on Studio.  "Pelican Riding a bicycle" benchmark, creating cool images using LORA.
+
 ## [APIs](api/)
 
 Access AI Studio using various APIs.
