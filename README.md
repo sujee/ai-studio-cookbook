@@ -32,9 +32,16 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 **3 - Follow project-specific instructions**
 
+## [Models](models/)
+
+Checkout latest [model guides and sample code](models/).
+
+Featuring: [Qwen/Qwen3-235B-A22B-2507](models/qwen3-2507.md)
+
 ## [Fun and Cool Stuff](fun/)
 
 Have some fun with LLMs on Studio.  "Pelican Riding a bicycle" benchmark, creating cool images using LORA.
+
 
 ## [APIs](api/)
 
