@@ -16,7 +16,9 @@ This cookbook respository is a collection of guides and examples for working wit
 - [Distillation guide](distillation/distillation-1/)
 - [Fun benchmark "pelican riding a bicycle"](fun/pelican-riding-bicycle/)
 
-💪 **[Cool Apps / Demos](apps/README.md)** built with Nebius AI - WhatLLM, Streetfighter
+### 💪 [Cool Apps / Demos](apps/README.md)
+
+See apps powered by Nebius AI - WhatLLM, Streetfighter and more
 
 
 ---
