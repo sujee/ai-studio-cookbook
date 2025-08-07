@@ -4,12 +4,16 @@
 
 This cookbook respository is a collection of guides and examples for working with open models using [Nebius AI Studio](https://studio.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
 
+---
+
 ## 😎 Featured
 
 - New model guides: [GPT-OSS](models/gpt-oss.md), [Qwen3-2507](models/qwen3-2507.md)
 - Community contributions: [open bench evaluation guide](community/openbench-evaluation-guide/)
 - [Distillation guide](distillation/distillation-1/)
 - [Fun benchmark "pelican riding a bicycle"](fun/pelican-riding-bicycle/)
+
+💪 **[Cool Apps / Demos](apps/README.md)** built with Nebius AI - WhatLLM, Streetfighter
 
 
 ---
@@ -30,6 +34,8 @@ Checkout latest [model guides and sample code](models/).
 
 Featuring: [Qwen3-2507](models/qwen3-2507.md) and [GPT-OSS](models/gpt-oss.md)
 
+---
+
 ## 📘 [APIs](api/)
 
 Access AI Studio using various APIs.
@@ -39,6 +45,7 @@ Access AI Studio using various APIs.
 &nbsp;  • &nbsp;  [ai-suite](api/api_aisuite.ipynb)
 &nbsp;  • &nbsp;  [llama-index](api/api_llamaindex.ipynb)
 
+---
 
 ## 🕶️ [Fun and Cool Stuff](fun/)
 
@@ -46,6 +53,7 @@ Have some fun with models.
 - Try ["Pelican Riding a bicycle" benchmark](fun/pelican-riding-bicycle/)
 - creating cool images using LORA.
 
+---
 
 <!-- ## Embeddings -->
 
@@ -57,6 +65,7 @@ Have some fun with models.
 | [PDF RAG](rag/rag-pdf-llama-index/) | Simple PDF RAG application                          | LLamaindex + Nebius AI     |
 | [Chat with Documents](rag/chat-with-pdf)  | UI Web app to chat interactively with PDF documents | LLamaindex + Nebius AI + Streamlit |
 
+---
 
 ## 🎠 [Agents](agents/)
 
@@ -70,6 +79,7 @@ We have numerous  agent examples: from [starter agents](agents/README.md#-starte
 &nbsp;  • &nbsp; [<img src="images/pydantic-icon.png" width="20" height="20"> Pydantic](agents/README.md#pydantic-ai)
 &nbsp;  • &nbsp; [<img src="images/aws-strands-agent-icon.png" width="20" height="20"> AWS Strands](agents/README.md#strands-agent)
 
+---
 
 ## ⚒️ Function / Tool Calling
 
@@ -77,7 +87,7 @@ We have numerous  agent examples: from [starter agents](agents/README.md#-starte
 |-------------------------------------|-----------------------------------------------------|------------------------------------|
 | [simple function calling example 1](tool-calling/function_calling_1.ipynb) | Demonstrates how to call functions                          | Nebius AI     |
 
-
+---
 
 <!-- ## Vision Modes
 
@@ -96,7 +106,7 @@ We have numerous  agent examples: from [starter agents](agents/README.md#-starte
 
 <!-- ## LORA -->
 
-
+---
 
 ## 🤝 Contributing
 
@@ -104,10 +114,14 @@ We welcome your contributions!  Open issues, submit pull requests, share your ex
 
 🧑🏻‍🤝‍🧑🏼 **[View community contributions](community/README.md)**
 
+---
+
 
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 📔 Resources
 
