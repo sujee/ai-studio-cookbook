@@ -1,121 +1,118 @@
 # Nebius AI Studio Cookbook
 
-The Nebius AI Studio Cookbook is a collection of guides and examples for working with open models using Nebius AI Studio. Use these recipes to build and deploy intelligent applications faster.
+<img src="images/banner-1.jpg">
 
-## Contributing
+This cookbook respository is a collection of guides and examples for working with open models using [Nebius AI Studio](https://studio.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
 
-We welcome your contributions!
+## 😎 Featured
 
-### [Community Contributions](community/README.md)
+- New model guides: [GPT-OSS](models/gpt-oss.md), [Qwen3-2507](models/qwen3-2507.md)
+- Community contributions: [open bench evaluation guide](community/openbench-evaluation-guide/)
+- [Distillation guide](distillation/distillation-1/)
+- [Fun benchmark "pelican riding a bicycle"](fun/pelican-riding-bicycle/)
 
-
-## Resources
-
-- [Nebius AI Studio Docs](https://docs.nebius.com/studio)
-- [Nebius AI Blog](https://nebius.com/blog)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-**1 - Prerequisites**
+1. Prerequisites:
+   - You’ll need a Nebius AI Studio account and API key. Sign up for free [here](https://studio.nebius.com/).
+   - Python runtime (local, Google Colab etc.)
+2. Follow the [setup guide](setup-dev-env.md)
+3. Follow project-specific instructions**
 
-- You’ll need a Nebius AI Studio account and API key. Sign up for free [here](https://studio.nebius.com/).
-- Python runtime (local, Google Colab etc.)
-- Git
+---
 
-**2 - Follow the [setup guide](setup-dev-env.md)**
-
-**3 - Follow project-specific instructions**
-
-## [Models](models/)
+## 🎁 [Models](models/)
 
 Checkout latest [model guides and sample code](models/).
 
-Featuring: [Qwen/Qwen3-235B-A22B-2507](models/qwen3-2507.md)
+Featuring: [Qwen3-2507](models/qwen3-2507.md) and [GPT-OSS](models/gpt-oss.md)
 
-## [Fun and Cool Stuff](fun/)
-
-Have some fun with LLMs on Studio.  "Pelican Riding a bicycle" benchmark, creating cool images using LORA.
-
-
-## [APIs](api/)
+## 📘 [APIs](api/)
 
 Access AI Studio using various APIs.
 
-| Code                                       | Description           |
-|--------------------------------------------|-----------------------|
-| [api_native.ipynb](api/api_native.ipynb)         | OpenAI compatible API |
-| [api_litellm.ipynb](api/api_litellm.ipynb)       | Using LiteLLM API     |
-| [api_aisuite.ipynb](api/api_aisuite.ipynb)       | Using aisuite API     |
-| [api_llamaindex.ipynb](api/api_llamaindex.ipynb) | Using llama-index API |
+[Open AI comptible API](api/api_native.ipynb)
+&nbsp;  • &nbsp;  [LiteLLM](api/api_litellm.ipynb)
+&nbsp;  • &nbsp;  [ai-suite](api/api_aisuite.ipynb)
+&nbsp;  • &nbsp;  [llama-index](api/api_llamaindex.ipynb)
 
 
+## 🕶️ [Fun and Cool Stuff](fun/)
 
-## Embeddings
+Have some fun with models.  
+- Try ["Pelican Riding a bicycle" benchmark](fun/pelican-riding-bicycle/)
+- creating cool images using LORA.
 
 
-## [RAG](rag/)
+<!-- ## Embeddings -->
+
+
+## 🔍 [RAG](rag/)
 
 | Example                             | Description                                         | Tech Stack                         |
 |-------------------------------------|-----------------------------------------------------|------------------------------------|
 | [PDF RAG](rag/rag-pdf-llama-index/) | Simple PDF RAG application                          | LLamaindex + Nebius AI     |
 | [Chat with Documents](rag/chat-with-pdf)  | UI Web app to chat interactively with PDF documents | LLamaindex + Nebius AI + Streamlit |
 
-## Function / Tool Calling
+
+## 🎠 [Agents](agents/)
+
+We have numerous  agent examples: from [starter agents](agents/README.md#-starter-agents) to [intermediate agents](agents/README.md#intermediate-agents) and [advanced agents](agents/README.md#advanced-agents).
+
+**Featured AI Agent frameworks:**  
+[<img src="images/crewai-icon.svg" width="20" height="20"> CrewAI](agents/README.md#crewai)
+&nbsp;  • &nbsp; [<img src="images/agno-icon.png" width="20" height="20"> Agno](agents/README.md#agno)
+&nbsp;  • &nbsp; [<img src="images/google-adk-icon.png" width="20" height="20"> Google ADK](agents/README.md#google-adk-agent-development-kit)
+&nbsp;  • &nbsp; [<img src="images/llama-index-icon.jpeg" width="20" height="20"> Llama-index](agents/README.md#llama-index)
+&nbsp;  • &nbsp; [<img src="images/pydantic-icon.png" width="20" height="20"> Pydantic](agents/README.md#pydantic-ai)
+&nbsp;  • &nbsp; [<img src="images/aws-strands-agent-icon.png" width="20" height="20"> AWS Strands](agents/README.md#strands-agent)
+
+
+## ⚒️ Function / Tool Calling
 
 | Example                             | Description                                         | Tech Stack                         |
 |-------------------------------------|-----------------------------------------------------|------------------------------------|
 | [simple function calling example 1](tool-calling/function_calling_1.ipynb) | Demonstrates how to call functions                          | Nebius AI     |
 
 
-## [Agents](agents/)
 
-#### [View all agent examples](agents/README.md)
-
-#### [View agent examples by framework](agents/README.md#agents-by-framework)
-
-### 🧩 Starter Agents
-
-
-| Agent | Descripton                                          | Tech Stack           |
-|-----------|-----------------------------------------------|-----------------------|
-| [CrewAI Research agent](agents/crewai-research-agent/)  | CrewAI research agent   | CrewAI | 
-| [Google ADK Tool calling agent](agents/google-adk-tool-calling/) | Function calling agent | Google ADK | 
-| [Agno Hacker News Agent](agents/agno-hacker-news-agent/) | Analyze hacker news | Agno | 
-| [Llama-index task timer](agents/llamaindex-task-timer/) | Calculate time spent on tasks | Llama-index | 
-| [Pydantic weather agent](agents/pydantic-weather-agent/) | Get weather info in realtime  | Pydantic + Duckduckgo | 
-| [AWS Strands Weather Agent](agents/aws-strands-weather-agent/) | Weather assistant | Strands SDK |
-
-## 🏃🏻🏃🏽‍♀️ Multi Agents
-
-| Agent | Descripton                                          | Tech Stack           |
-|-----------|-----------------------------------------------|-----------------------|
-| [Agno multi agent](agno-agents-examples/) | Multiple agents working together to do finance research | Agno + Duckduckgo + Yahoo Finance| 
-
-
-
-
-## Vision Modes
+<!-- ## Vision Modes
 
 
 ## Observability
 
 ## MCP
 
-## Finetuning
+## Finetuning -->
 
-## Distillation
+## 🫗 Distillation
 
 | Name | Descripton                                          | Tech Stack           |
 |-----------|-----------------------------------------------|-----------------------|
 | [Distillation 1](distillation/distillation-1/)  | Example of a distilled model to do grammer check   | Nebius AI | 
 
-## LORA
+<!-- ## LORA -->
+
+
+
+## 🤝 Contributing
+
+We welcome your contributions!  Open issues, submit pull requests, share your experience.
+
+🧑🏻‍🤝‍🧑🏼 **[View community contributions](community/README.md)**
+
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 📔 Resources
+
+- [Nebius AI Studio Docs](https://docs.nebius.com/studio)
+- [Nebius AI Blog](https://nebius.com/blog)
 
 ---
 © Nebius BV, 2025
