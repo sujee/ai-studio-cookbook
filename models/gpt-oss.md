@@ -8,7 +8,15 @@
 
 ## Table of Contents
 
-TODO
+  - [Try it Out](#try-it-out)
+  - [TL;DR](#tldr)
+    - [🧠 Fun Facts](#-fun-facts)
+  - [Performance and Benchmarks](#performance-and-benchmarks)
+    - [Official benchmarks](#official-benchmarks)
+    - [Artificial Analysis Benchmark](#artificial-analysis-benchmark)
+    - [Fun Benchmark: "Pelican riding a bicycle"](#fun-benchmark-pelican-riding-a-bicycle-)
+  - [References](#references)
+
 
 ## Try it Out
 

@@ -4,6 +4,9 @@
 
 This cookbook respository is a collection of guides and examples for working with open models using [Nebius AI Studio](https://studio.nebius.com/). Use these recipes to build and deploy intelligent applications faster.
 
+
+> ⭐ If you find this repo useful, give it a star! You’ll be notified of new updates and help others discover it too — thank you!
+
 ---
 
 ## 😎 Featured
