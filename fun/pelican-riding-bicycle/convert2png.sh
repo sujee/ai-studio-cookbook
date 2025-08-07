@@ -16,11 +16,21 @@ for file in "$@"; do
 	fi
 done
 
-## process PNG images in 'images' folder
+## process only PNGs generated from SVGs in step above
 annotated_dir="images/annotated"
 mkdir -p "$annotated_dir"
 
-for file in images/*.png; do
+generated_pngs=()
+for file in "$@"; do
+	if [[ -f "$file" && "$file" == *.svg ]]; then
+		png_file="images/$(basename "$file" .svg).png"
+		if [[ -f "$png_file" ]]; then
+			generated_pngs+=("$png_file")
+		fi
+	fi
+done
+
+for file in "${generated_pngs[@]}"; do
 	out_file="$annotated_dir/$(basename "$file")"
 	convert "$file" \
 		-font Arial -pointsize 18 -fill black -stroke none \
