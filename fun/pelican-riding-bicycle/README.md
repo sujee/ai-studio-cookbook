@@ -71,6 +71,10 @@ Usage:
 
 ```bash
 ./combine-images.sh -o combined.png  a.png   b.png
+
+## to lay images out in a 2x2 grid
+./combine-images.sh -o combined.png  --layout 2x2  a.png   b.png  c.png  d.png
+
 ```
 
 Here as an example of generated combined image comparing **Qwen3-235B-A22B** and **Qwen3-235B-A22B-Instruct-2507** models
