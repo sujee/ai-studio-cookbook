@@ -11,7 +11,7 @@ This cookbook respository is a collection of guides and examples for working wit
 
 ## 😎 Featured
 
-- New model guides: [GPT-OSS](models/gpt-oss.md), [Qwen3-2507](models/qwen3-2507.md)
+- New [model guides](models/README.md): [GPT-OSS](models/gpt-oss.md), [Qwen3-2507](models/qwen3-2507.md), [GLM4.5](models/glm4.5.md)
 - Community contributions: [open bench evaluation guide](community/openbench-evaluation-guide/)
 - [Distillation guide](distillation/distillation-1/)
 - [Fun benchmark "pelican riding a bicycle"](fun/pelican-riding-bicycle/)
