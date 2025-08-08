@@ -10,7 +10,6 @@
 
   - [Try it Out](#try-it-out)
   - [TL;DR](#tldr)
-    - [🧠 Fun Facts](#-fun-facts)
   - [Performance and Benchmarks](#performance-and-benchmarks)
     - [Official benchmarks](#official-benchmarks)
     - [Artificial Analysis Benchmark](#artificial-analysis-benchmark)
@@ -18,17 +17,20 @@
   - [References](#references)
 
 
-## Try it Out
+## Try it Out!
 
-Run the model using this notebook:
+[Try it in the AI Studio playground](https://studio.nebius.com/playground?models=openai/gpt-oss-120b)  (120B model)
 
-📓 [gpt_oss_1.ipynb](qwen3_2507_1.ipynb)
+[Try it in the AI Studio playground](https://studio.nebius.com/playground?models=openai/gpt-oss-20b)  (20B model)
+
+Try with API:  [gpt_oss_1.ipynb](qwen3_2507_1.ipynb)  &nbsp; 
 [![Launch in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nebius/ai-studio-cookbook/blob/main/models/gpt_oss_1.ipynb)
 
 ## TL;DR
 
 GPT OSS is a hugely anticipated open-weights release by OpenAI, designed for powerful reasoning, agentic tasks, and versatile developer use cases
 
+- Released: Aug 2025
 - Two models: 
   - a big one with 117B parameters: [gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b)
   - A smaller one with 21B parameters:  [gpt-oss-20b](https://hf.co/openai/gpt-oss-20b)
@@ -71,6 +73,10 @@ GPT OSS is a hugely anticipated open-weights release by OpenAI, designed for pow
 ### Fun Benchmark: "Pelican riding a bicycle" 🪿🚲
 
 Inspired by [Simon Willison](https://simonwillison.net/)'s fun experiment ([see here](https://simonwillison.net/tags/pelican-riding-a-bicycle/)), this benchmark is all about how well models generate quirky, imaginative responses.
+
+Prompt:
+
+> Generate an SVG of a pelican riding a bicycle
 
 You can see our full pelican tests [here](../fun/pelican-riding-bicycle/).
 
