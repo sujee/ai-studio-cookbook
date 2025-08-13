@@ -69,6 +69,7 @@ Have some fun with models.
 |-------------------------------------|-----------------------------------------------------|------------------------------------|
 | [PDF RAG](rag/rag-pdf-llama-index/) | Simple PDF RAG application                          | LLamaindex + Nebius AI     |
 | [Chat with Documents](rag/chat-with-pdf)  | UI Web app to chat interactively with PDF documents | LLamaindex + Nebius AI + Streamlit |
+| [Internal Content Generation Platform](rag/content-gen-pipeline-qdrant/)  | A platform for creating social posts, articles, and demo apps with a RAG pipeline. | Qdrant + Nebius AI + Qwen3-Embedding |
 
 ---
 
