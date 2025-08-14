@@ -137,5 +137,21 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Nebius AI Blog](https://nebius.com/blog)
 
 ---
+
+## 🌟 GitHub Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nebius/ai-studio-cookbook&type=Date)](https://www.star-history.com/#nebius/ai-studio-cookbook&Date)
+
+---
+
+## ✨ Contributors
+
+Thanks to all of our amazing contributors!
+
+<a href="https://github.com/nebius/ai-studio-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nebius/ai-studio-cookbook" />
+</a>
+
+---
 © Nebius BV, 2025
 
