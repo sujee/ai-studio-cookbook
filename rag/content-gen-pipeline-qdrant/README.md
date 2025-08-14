@@ -14,8 +14,8 @@ An AI-powered content generation platform that helps in creating social media po
 
 1. **Clone and setup environment:**
 ```bash
-git clone <repository-url>
-cd nebius-qdrant
+git clone https://github.com/nebius/ai-studio-cookbook
+cd rag/content-gen-pipeline-qdrant
 cp backend/env.example backend/.env
 cp frontend/env.example frontend/.env
 ```
