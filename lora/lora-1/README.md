@@ -1,9 +1,9 @@
 # Create Fun images Using LORA Adapters on AI Studio
+
   - [Overview](#overview)
   - [Pre-Requisites](#pre-requisites)
   - [Quick start](#quick-start)
   - [Example 2](#example-2)
-  - [Example 3](#example-3)
   - [Dev Notes](#dev-notes)
 
 
