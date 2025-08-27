@@ -9,7 +9,7 @@
 
 ## Overview
 
-You can use LORA adapters in [Nebius AI Studio](https://studio.nebius.com/) UI.  This example shows how to create some cool images using this feature.
+You can use LoRA adapters directly in the [Nebius AI Studio](https://studio.nebius.com/) UI.  This guide shows how to plug in a LoRA and make cool, themed images.
 
 **Watch the video**
 
@@ -23,9 +23,9 @@ You can use LORA adapters in [Nebius AI Studio](https://studio.nebius.com/) UI. 
 
 ### 1 - Select a model
 
-- Go to [Nebius AI Studio](https://studio.nebius.com/)
-- Selet 'Text to image' section
-- And select a model **`FLUX.1-schnell`**
+- Open [Nebius AI Studio](https://studio.nebius.com/)
+- Go to 'Text to image' section
+- select the model **`FLUX.1-schnell`**
 
 | ![](images/select-model-1.png)
 |-
@@ -42,40 +42,37 @@ And here the image
 
 ### 2 - Using a LORA Adapter
 
-One of the best places to find LORA adapters is [civitai.com](https://civitai.com/)
+A great place to find LoRA adapters is [civitai.com](https://civitai.com/)
 
-To use a LORA adapter, we need 
+To use a LORA adapter, you’ll need two things:
 
-- the model adapter URL
-- and 'trigger word'
+- The **adapter URL**
+- The **trigger word** (must be included in your prompt)
 
-The trigger word should be part of the prompt.  
+If the trigger word is **XYZ**, your prompt might look like:
 
-For example, if the trigger word is **XYZ**  the prompt would be
-
-> XYZ a cat wearing sun glasses
+> **XYZ** a cat wearing sun glasses
   
-See the screen shot on how to find these.
+See the screenshot below for where to find the URL and trigger word on Civitai.
 
 | ![](images/lora-1.png)
 |-
 
-Here are some cool adapters:
+Some fun adapters to try:
 
 - [lego minifugures](https://civitai.com/models/1658853/lego-minifigures?modelVersionId=1877566)
 - [Simpsons](https://civitai.com/models/1257887?modelVersionId=1548033 )
 - [Star Wars jedi outfit](https://civitai.com/models/32047?modelVersionId=1093173)
 - [Tom and Jerry style](https://civitai.com/models/1541606?modelVersionId=1745171)
 
-### 3 - Let's use a **Star wars JEDI** theme.
+### 3 - Example: **Star wars JEDI** theme.
 
-LORA adapter: [jedi outfit](https://civitai.com/models/32047?modelVersionId=1093173)
-
-Trigger word: **Jedioutfit**
+- LORA adapter: [jedi outfit](https://civitai.com/models/32047?modelVersionId=1093173)
+- Trigger word: **Jedioutfit**
 
 Prompt:
 
-> Jedioutfit create a birthday card of a kid saying "happy birthday" 
+> **Jedioutfit** create a birthday card of a kid saying "happy birthday" 
 
 Here is how we plug in the values:
 
@@ -91,15 +88,14 @@ Here are the generated image.
 Pretty cool, eh?!
 
 
-### 4 - Let's try 'simpsons' style
+### 4 - Example: 'simpsons' style
 
-Adapter: [Simpsons](https://civitai.com/models/1257887?modelVersionId=1548033)
-
-Trigger word (one of many): **bart_simpsons**
+- LORA Adapter: [Simpsons](https://civitai.com/models/1257887?modelVersionId=1548033)
+- Trigger word (one of many): **bart_simpsons**
 
 Prompt:
 
-> bart_simpsons  create a birthday card of a kid saying "happy birthday" 
+> **bart_simpsons**  create a birthday card of a kid saying "happy birthday" 
 
 And here are couple of images generated:
 
@@ -113,39 +109,34 @@ And here are couple of images generated:
 
 ## Example 2
 
-**1 - Start with a plain image.**
+**1 - Start with a simple prompt.**
 
 Prompt:
 
-> a birthday card of cat saying "happy birthday"  
+> an orange cat with a surf board  
 
-| ![](images/image-2-base.png)
+| ![](images/image-3-base.png)
 |-
 
-**2 - Use a cartoon style LORA.**
+**2 - Lego LORA**
 
-[Tom and Jerry style](https://civitai.com/models/1541606?modelVersionId=1745171)
-
-Trigger words: **A mhls_cartoon style**
+- LORA: [Lego minifigures](https://civitai.com/models/1658853/lego-minifigures?modelVersionId=1877566)
+- Trigger words: **lego_minifigure**
 
 Prompt:
 
-> A mhls_cartoon style image  a birthday card of cat saying "happy birthday"
+> **lego_minifigure** an orange cat with a surf board  
 
-| ![](images/image-2-cartoon-1.png)
+
+| ![](images/image-3-lego-1.png)
 |-
 
----
-
-## Example 3
-
----
 
 Have fun!
 
 ## Dev Notes
 
-How to combine multiple images into a single image.
+Combine multiple images with ImageMagick (convert):
 
 ```bash
 ## side by side
@@ -157,3 +148,5 @@ convert image1.jpg image2.jpg image3.jpg -append combined_vertical.jpg
 ## Grid layout (2x2 example)
 convert image1.jpg image2.jpg image3.jpg image4.jpg -resize 500x500 \( image1.jpg image2.jpg +append \) \( image3.jpg image4.jpg +append \) -append grid.jpg
 ```
+
+Tip: If convert isn’t found, install ImageMagick first (e.g., brew install imagemagick on macOS).
