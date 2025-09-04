@@ -101,7 +101,7 @@ The runtime can take anywhere from 1 to 24 hours.
 
 Note: we only have to do this once.  Then we can use the generated output.
 
-Run this notebook: [1_generate_synthetic_data_batch.ipynb](1_generate_synthetic_data_batch.ipynb)
+Run this notebook: [1_generate_synthetic_data_batch.ipynb](1_generate_synthetic_data.ipynb)
 
 After successful completion we will see a file `data/batch_output.jsonl` .
 
