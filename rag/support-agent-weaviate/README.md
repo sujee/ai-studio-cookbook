@@ -1,14 +1,8 @@
 <div align="center">
   <h1>Internal Support Agent</h1>
-  <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;">
-    <img src="assets/logo.png" alt="Nebius Logo" height="60" style="height: 60px; object-fit: contain;">
-    <img src="assets/langgraph_logo.png" alt="LangGraph" height="60" style="height: 60px; object-fit: contain;">
-    <img src="assets/weavite.png" alt="Weaviate" height="60" style="height: 60px; object-fit: contain;">
-    <img src="assets/notion.png" alt="Notion" height="60" style="height: 60px; object-fit: contain;">
-  </div>
-</div>
+  <img width="1009" height="110" alt="Nebius Support Agent" src="https://github.com/user-attachments/assets/ad99bdae-cf7a-4014-b9f4-a30153f8a75b" />
 
----
+</div>
 
 Internal Support Agent is a Retrieval-Augmented Generation (RAG) assistant combining web search, document processing, vector retrieval, and intelligent support tools. It features multi‑agent orchestration, automatic support assessment, and integrations with Notion and Calendly. The project provides both a Streamlit web app and a Slack bot.
 
