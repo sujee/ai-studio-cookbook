@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Internal Support Agent</h1>
-  <img width="1009" height="110" alt="Nebius Support Agent" src="https://github.com/user-attachments/assets/ad99bdae-cf7a-4014-b9f4-a30153f8a75b" />
-
+ 
+  ![Nebius-Weaviate Support Agent](https://github.com/user-attachments/assets/cd6f534c-7a5f-4554-a52b-fa59386282f9)
 </div>
 
 Internal Support Agent is a Retrieval-Augmented Generation (RAG) assistant combining web search, document processing, vector retrieval, and intelligent support tools. It features multi‑agent orchestration, automatic support assessment, and integrations with Notion and Calendly. The project provides both a Streamlit web app and a Slack bot.
@@ -222,8 +222,3 @@ To change models, open `config.py` and edit `LLM_MODEL` and/or `EMBEDDING_MODEL`
 
 - **Missing environment variables in Streamlit**: The app shows a guided checklist in the UI; add the listed keys to `.env` and restart.
 
----
-
-## License
-
-MIT
