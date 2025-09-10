@@ -72,6 +72,7 @@ Have some fun with models.
 | [Chat with Documents](rag/chat-with-pdf)  | UI Web app to chat interactively with PDF documents | LLamaindex + Nebius AI + Streamlit |
 | [Internal Content Generation Platform](rag/content-gen-pipeline-qdrant/)  | A platform for creating social posts, articles, and demo apps with a RAG pipeline. | Qdrant + Nebius AI + Qwen3-Embedding |
 | [End-to-end RAG pipeline for PDF documents](rag/rag-milvus-1/)  | Process and query PDF documents using vector database and open source embeddings + models | Llama-index + Milvus db + Nebius AI + Qwen3-Embedding + GPT-OSS |
+| [Internal Support Agent](rag/support-agent-weaviate/) | Multi-agent internal support agent with web search, document RAG, Notion/Calendly tools, and Slack bot | Nebius AI + LangGraph + Weaviate |
 
 
 ---

@@ -1,7 +1,8 @@
 # Nebius-Qdrant Content Generation Platform
 
 An AI-powered content generation platform that helps in creating social media posts, articles, and demo applications using a RAG pipeline built with Nebius and Qdrant Cloud vector database. 
-![Landing page](./images/landing.png)
+![Qdrant-Nebius RAG](https://github.com/user-attachments/assets/56847ea1-810c-476f-a2b6-e3c99269a7bb)
+
 
 ## Quick Start
 
