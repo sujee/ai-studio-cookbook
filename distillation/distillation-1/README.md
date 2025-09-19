@@ -111,7 +111,7 @@ We use the data we generated in previous step to fine tune a 'student model'
 
 The fine tuned model will be saved into `models` directory.
 
-Run this notebook:  [2_fine_tuning.ipynb](2_fine_tuning.ipynb)
+Run this notebook:  [2_training.ipynb](2_training.ipynb)
 
 You can see fine tuning jobs' status on the [Studio fine-tuning dashboard](https://studio.nebius.com/fine-tuning) 
 
