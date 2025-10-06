@@ -3,6 +3,11 @@ Locust test script for Nebius AI Studio API endpoints.
 
 This script tests the performance of Nebius AI Studio API by sending
 concurrent requests to the API and measuring response times.
+
+
+Example of how to run this script:
+
+    locust -f locust_test_nebius.py --host https://api.studio.nebius.com/v1/ --users 10 --spawn-rate 1
 """
 
 import os
@@ -19,7 +24,7 @@ load_dotenv()
 # Configure logging
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
-logger.setLevel(logging.DEBUG)
+# logger.setLevel(logging.DEBUG)
 
 # Configuration
 class MyConfig:
@@ -136,10 +141,9 @@ class NebiusUser(HttpUser):
         Initialize client when user starts.
         """
         self.api_client = NebiusAPIClient(host=self.host)
-        self.prompt_index = 0
 
-    @task(1)
-    def test_completion_simple(self):
+    @task
+    def test_simple_completion(self):
         """
         Test a simple completion request.
         """
@@ -150,31 +154,37 @@ class NebiusUser(HttpUser):
             max_tokens=100
         )
 
-    # @task(2)
-    # def test_completion_rotating_prompts(self):
-    #     """
-    #     Test completion requests with rotating prompts.
-    #     """
-    #     prompt = TEST_PROMPTS[self.prompt_index % len(TEST_PROMPTS)]
-    #     self.prompt_index += 1
+    @task
+    def test_explanation(self):
+        """
+        Test completion requests with longer explanation.
+        """
+        prompt =  "Explain quantum computing in simple terms."
+        # prompt =  "Write a haiku about cats.",
+        # prompt =  "What are the benefits of renewable energy?"
+
+        self.api_client.send_completion_request(
+            request_type="explanation",
+            model=MyConfig.MODEL_TO_TEST,
+            prompt=prompt,
+            max_tokens=1000
+        )
+
+    @task
+    def test_creative_writing(self):
+        """
+        Test completion requests with creative prompt.
+        """
+        prompt =  "Write a haiku about cats."
+
+        self.api_client.send_completion_request(
+            request_type="creative_writing",
+            model=MyConfig.MODEL_TO_TEST,
+            prompt=prompt,
+            temperature=0.9, # higher temperature for creativity
+            max_tokens=200,
+        )
         
-    #     self.api_client.send_completion_request(
-    #         prompt=prompt,
-    #         max_tokens=100
-    #     )
-
-    # @task(1)
-    # def test_completion_with_parameters(self):
-    #     """
-    #     Test completion with specific parameters.
-    #     """
-    #     self.api_client.send_completion_request(
-    #         model="Qwen/Qwen3-30B-A3B",
-    #         prompt="Explain quantum computing in simple terms.",
-    #         temperature=0.5,
-    #         max_tokens=150
-    #     )
+    
 
 
-# Example of how to run this script:
-# locust -f locust_test_nebius.py --host https://api.studio.nebius.com/v1/ --users 10 --spawn-rate 1
