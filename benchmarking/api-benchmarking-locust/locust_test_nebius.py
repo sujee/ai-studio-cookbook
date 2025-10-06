@@ -29,21 +29,13 @@ logging.basicConfig(level=logging.INFO)
 # Configuration
 class MyConfig:
     pass
-MyConfig.MODEL_TO_TEST = os.getenv("MODEL_TO_TEST", "Qwen/Qwen3-30B-A3B")
+MyConfig.MODELS_TO_TEST = [model.strip() for model in os.getenv('MODELS_TO_TEST', '').split(',') if model.strip()]
 MyConfig.TEMPERATURE = float(os.getenv("TEMPERATURE", "0.5"))
 MyConfig.MAX_TOKENS = int(os.getenv("MAX_TOKENS", "1000"))
 MyConfig.API_BASE_URL = os.getenv("API_BASE_URL", "https://api.studio.nebius.com/v1/")
 MyConfig.NEBIUS_API_KEY = os.getenv("NEBIUS_API_KEY")
 if not MyConfig.NEBIUS_API_KEY:
     raise ValueError("NEBIUS_API_KEY environment variable is required")
-
-# Test prompts
-TEST_PROMPTS = [
-    "What is the capital of France?",
-    "Explain quantum computing in simple terms.",
-    "Write a haiku about cats.",
-    "What are the benefits of renewable energy?",
-]
 
 
 class NebiusAPIClient:
@@ -147,44 +139,43 @@ class NebiusUser(HttpUser):
         """
         Test a simple completion request.
         """
-        self.api_client.send_completion_request(
-            request_type="simple_completion",
-            model=MyConfig.MODEL_TO_TEST,
-            prompt="What is the capital of France?",
-            max_tokens=100
-        )
+        for model in MyConfig.MODELS_TO_TEST:
+            self.api_client.send_completion_request(
+                request_type="completion_simple",
+                model=model,
+                prompt="What is the capital of France?",
+                max_tokens=100
+            )
 
     @task
     def test_explanation(self):
         """
         Test completion requests with longer explanation.
         """
-        prompt =  "Explain quantum computing in simple terms."
+        prompt = "Explain quantum computing in simple terms."
         # prompt =  "Write a haiku about cats.",
         # prompt =  "What are the benefits of renewable energy?"
 
-        self.api_client.send_completion_request(
-            request_type="explanation",
-            model=MyConfig.MODEL_TO_TEST,
-            prompt=prompt,
-            max_tokens=1000
-        )
+        for model in MyConfig.MODELS_TO_TEST:
+            self.api_client.send_completion_request(
+                request_type="explanation",
+                model=model,
+                prompt=prompt,
+                max_tokens=1000
+            )
 
     @task
-    def test_creative_writing(self):
+    def test_creative_writing_short(self):
         """
-        Test completion requests with creative prompt.
+        Test completion requests with creative writing.
         """
-        prompt =  "Write a haiku about cats."
+        prompt = "Write a haiku about cats."
 
-        self.api_client.send_completion_request(
-            request_type="creative_writing",
-            model=MyConfig.MODEL_TO_TEST,
-            prompt=prompt,
-            temperature=0.9, # higher temperature for creativity
-            max_tokens=200,
-        )
-        
-    
-
-
+        for model in MyConfig.MODELS_TO_TEST:
+            self.api_client.send_completion_request(
+                request_type="creative_short",
+                model=model,
+                prompt=prompt,
+                temperature=0.9, # higher temperature for creativity
+                max_tokens=200,
+            )
