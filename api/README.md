@@ -2,7 +2,7 @@
 
 This guide shows how to run models using various python APIs.
 
-## References and Acknoledgements
+## References and Acknowledgements
 
 - [API documentation](https://docs.nebius.com/studio/inference/quickstart)
 

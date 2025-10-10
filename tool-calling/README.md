@@ -2,7 +2,7 @@
 
 Some examples showing how to do function/tool calling in Nebius AI Studio
 
-## References and Acknoledgements
+## References and Acknowledgements
 
 - [API documentation](https://docs.nebius.com/studio/inference/quickstart)
 - [Tool calling docs](https://docs.nebius.com/studio/inference/tool-calling)

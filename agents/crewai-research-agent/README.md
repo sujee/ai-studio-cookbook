@@ -2,7 +2,7 @@
 
 A simple yet powerful AI research crew built with CrewAI that leverages multiple specialized agents to discover and analyze groundbreaking technologies. 
 
-## References and Acknoledgements
+## References and Acknowledgements
 
 - [CrewAI documentation](https://docs.crewai.com/)
 - [CrewAI + Nebius](https://docs.crewai.com/en/concepts/llms#nebius-ai-studio)
